@@ -1,0 +1,13 @@
+$main-color: #ae90ff;
+$secondary-color:#AE90FF;
+.test {
+ position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size:50px;
+  padding:50px;
+  color:$main-color;
+  border-radius: 50%;
+  border:1px solid $secondary-color;
+}
